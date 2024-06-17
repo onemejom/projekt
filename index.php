@@ -6,9 +6,9 @@ if (isset($_POST['login']) && !empty($_POST['username']) && !empty($_POST['passw
 
     //connect string do DB
     $servername = "localhost";
-    $username = "mentel";
-    $password = "Heslo123";
-    $dbname = "mentel3A2";
+    $username = "Jozko";
+    $password = "123";
+    $dbname = "slezak3a2";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
