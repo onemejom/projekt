@@ -6,8 +6,8 @@ if (isset($_POST['login']) && !empty($_POST['username']) && !empty($_POST['passw
 
     //connect string do DB
     $servername = "localhost";
-    $username = "Jozko";
-    $password = "123";
+    $username = "slezak";
+    $password = "heslo123";
     $dbname = "slezak3a2";
 
     // Create connection
