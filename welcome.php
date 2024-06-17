@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "mentel";
-$password = "Heslo123";
-$dbname = "mentel3A2";
+ $servername = "localhost";
+ $username = "slezak";
+ $password = "heslo123";
+ $dbname = "slezak3a2";
 
 // Pripojenie k databáze
 $connection = new mysqli($servername, $username, $password, $dbname);
