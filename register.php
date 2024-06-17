@@ -4,7 +4,7 @@ $error = " ";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";
     $username = "slezak";
-    $password = "Heslo123";
+    $password = "heslo123";
     $dbname = "slezak3a2";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
